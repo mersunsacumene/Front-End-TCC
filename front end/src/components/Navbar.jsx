@@ -8,9 +8,9 @@ const Navbar = () => {
     //<Link to="/about">Sobre</Link>
     
     
-    <nav class="bg-indigo-400">
-  <div class="mx-20">
-    <div class="relative flex h-16 items-center justify-between ">
+    <nav class="bg-azul">
+  <div class="mx-16">
+    <div class=" relative flex h-16 items-center justify-between ">
       <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
         <button type="button" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
           <span class="absolute -inset-0.5"></span>
@@ -29,9 +29,9 @@ const Navbar = () => {
         </div>
         <div class="hidden sm:ml-6 sm:block ">
           <div class="flex space-x-5 " >
-            <a class="hover:bg-slate-500 hover:text-white rounded-md px-3 py-2 text-sm font-medium "><Link to="/">Home</Link></a>
-            <a class="hover:bg-slate-500 hover:text-white rounded-md px-3 py-2 text-sm font-medium"><Link to="/about">Sobre</Link></a>
-            <a class="hover:bg-slate-500 hover:text-white rounded-md px-3 py-2 text-sm font-medium"><Link to="/contact">Contatos</Link></a>
+            <a class="text-branco hover:bg-branco hover:text-azul rounded-md px-3 py-2 text-sm font-medium "><Link to="/">Home</Link></a>
+            <a class="text-branco hover:bg-branco hover:text-azul rounded-md px-3 py-2 text-sm font-medium"><Link to="/about">Sobre</Link></a>
+            <a class="text-branco hover:bg-branco hover:text-azul rounded-md px-3 py-2 text-sm font-medium"><Link to="/contact">Contatos</Link></a>
           </div>
         </div>
       </div>
@@ -55,9 +55,9 @@ const Navbar = () => {
   </div>
   <div class="sm:hidden" id="mobile-menu">
     <div class="space-y-1 px-2 pb-3 pt-2">
-      <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"><Link to="/">Home</Link></a>
-      <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"><Link to="/about">Sobre</Link></a>
-      <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"><Link to="/contact">Contatos</Link></a>
+      <a href="#" class="text-branco hover:bg-branco hover:text-azul block rounded-md px-3 py-2 text-base font-medium"><Link to="/">Home</Link></a>
+      <a href="#" class="text-branco hover:bg-branco hover:text-azul block rounded-md px-3 py-2 text-base font-medium"><Link to="/about">Sobre</Link></a>
+      <a href="#" class="text-branco hover:bg-branco hover:text-azul block rounded-md px-3 py-2 text-base font-medium"><Link to="/contact">Contatos</Link></a>
     </div>
   </div>
 </nav>
