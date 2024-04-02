@@ -12,6 +12,7 @@ import Contact from './routes/Contact.jsx';
 import ErrorPage from './routes/ErrorPage.jsx';
 import Login from './routes/Login.jsx';
 import SignUp from './routes/SignUp.jsx';
+import EsqueceuSenha from './routes/EsqueceuSenha.jsx';
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
        {
         path: "signup",
         element: <SignUp />
+       },
+       {
+        path: "esqueceusenha",
+        element: <EsqueceuSenha />
        }
     ],
    },

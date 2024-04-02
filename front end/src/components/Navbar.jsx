@@ -8,7 +8,7 @@ const Navbar = () => {
     //<Link to="/about">Sobre</Link>
     
     
-    <nav class="bg-azulClaro">
+    <nav class="bg-azul">
   <div class="mx-16">
     <div class=" relative flex h-16 items-center justify-between ">
       <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -29,9 +29,9 @@ const Navbar = () => {
         </div>
         <div class=" absolute right-32 hidden sm:ml-6 sm:block ">
           <div class="flex space-x-10 " >
-            <a class="text-branco hover:bg-branco hover:text-azul rounded-md px-3 py-2 text-sm font-medium "><Link to="/">Home</Link></a>
-            <a class="text-branco hover:bg-branco hover:text-azul rounded-md px-3 py-2 text-sm font-medium"><Link to="/about">Sobre</Link></a>
-            <a class="text-branco hover:bg-branco hover:text-azul rounded-md px-3 py-2 text-sm font-medium"><Link to="/contact">Contatos</Link></a>
+            <a class="text-branco hover:bg-branco hover:text-azul rounded-xl px-2 py-2 text-xl font-medium "><Link to="/">Home</Link></a>
+            <a class="text-branco hover:bg-branco hover:text-azul rounded-xl px-2 py-2 text-xl font-medium"><Link to="/about">Sobre</Link></a>
+            <a class="text-branco hover:bg-branco hover:text-azul rounded-xl px-2 py-2 text-xl font-medium"><Link to="/contact">Contatos</Link></a>
           </div>
         </div>
       </div>
