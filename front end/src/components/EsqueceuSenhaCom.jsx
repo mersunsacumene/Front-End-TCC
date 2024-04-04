@@ -24,7 +24,7 @@ const EsqueceuSenhaCom = () => {
           <p class="text-center text-sm text-gray-500">
             Lembrou da senha?
             <Link to="/login">
-            <a href="#" class="font-semibold leading-6 text-azul hover:text-indigo-500"> Faça login aqui</a>
+            <a href="#" class="font-semibold leading-6 underline text-azul hover:text-indigo-500"> Faça login aqui</a>
             </Link>
           </p>
         </div>
