@@ -10,6 +10,7 @@ const Contact = () => {
       <img className=" pl-96 pt-96" src={logo}></img>
     </div>
         <div class="bg-azulClaro w-full max-w-4xl p-16">
+          <p className='text-white text-center'><h1>Contato</h1></p>
           <form class="bg-azul mt-40 rounded-xl w-full max-w-4xl p-8 shadow-lg space-y-6" action="#" method="POST">
           <div>
               <label for="name" class="block text-sm font-medium leading-6 text-white">Nome completo </label>
@@ -50,7 +51,7 @@ const Contact = () => {
               </div>
             </div>
             <div>
-             <button type="submit" class="flex w-full justify-center rounded-md bg-white px-3 py-1.5 text-sm font-semibold leading-6 text-azul shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Enviar Mensagem</button>
+             <button type="submit" class="flex w-full justify-center rounded-md bg-white px-3 py-1.5 text-sm font-semibold leading-6 text-azul shadow-sm hover:bg-red-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Enviar Mensagem</button>
             </div>
           </form>
         </div>
