@@ -1,16 +1,16 @@
 import React from 'react'
 import Footer from '../components/Footer'
 import logo from "../assets/logoBranca.png";
-
+import logo2 from "../assets/logoAzul.png";
 const Contact = () => {
     return (
        
         <div class="flex flex-row ">
-       <div className="bg-azulClaro h-lvh">
-      <img className=" pl-96 pt-96" src={logo}></img>
+       <div className="bg-white w-1/3 h-lvh">
+      <img className=" pl-48 pt-96" src={logo2}></img>
     </div>
-        <div class="bg-azulClaro w-full max-w-4xl p-16">
-          <p className='text-white text-center'><h1>Contato</h1></p>
+        <div class="bg-white w-1/3 max-w-4xl p-16">
+          <p className='text-azul text-center'><h1>Contato</h1></p>
           <form class="bg-azul mt-40 rounded-xl w-full max-w-4xl p-8 shadow-lg space-y-6" action="#" method="POST">
           <div>
               <label for="name" class="block text-sm font-medium leading-6 text-white">Nome completo </label>
@@ -55,8 +55,8 @@ const Contact = () => {
             </div>
           </form>
         </div>
-        <div className="bg-azulClaro h-lvh">
-      <img className=" pr-96 pt-96 " src={logo}></img>
+        <div className="bg-white w-1/3 h-lvh">
+      <img className=" pl-48 pt-96 " src={logo2}></img>
     </div>
    
         <Footer />
