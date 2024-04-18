@@ -27,7 +27,7 @@ const FormLogin = () => {
                     <label for="password" class="block text-sm font-medium leading-6 text-gray-900">Senha</label>
                     <div class="text-sm">
                       <Link to="/esqueceusenha">
-                      <a href="#" class="font-semibold text-azul hover:text-indigo-500">Esqueceu a senha?</a>
+                      <a href="#" class="font-semibold text-azul underline hover:text-indigo-500">Esqueceu a senha?</a>
                       </Link>
                     </div>
                   </div>
@@ -37,16 +37,16 @@ const FormLogin = () => {
                 </div>
           
                 <div>
-                <Link to="/">
-                 <button type="submit" class="flex w-full justify-center rounded-md bg-azul px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-azul">Login</button>
-                 </Link>
+                
+                 <button type="submit" class="flex w-full justify-center rounded-md bg-azul px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-azul">Login<Link to="/" /></button>
+
                 </div>
               </form>
               
               <p class="mt-10 text-center text-sm text-gray-500">
                 Não é cadastrado?
                 <Link to="/SignUp">
-                <a href="#" class="font-semibold leading-6 text-azul hover:text-indigo-500"> Cadastre-se aqui</a>
+                <a href="#" class="font-semibold leading-6 text-azul underline hover:text-indigo-500"> Cadastre-se aqui</a>
                 </Link>
               </p>
             </div>

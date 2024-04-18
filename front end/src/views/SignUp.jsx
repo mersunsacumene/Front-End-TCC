@@ -5,7 +5,7 @@ import FormSignUp from '../components/FormSignUp'
 const SignUp = () => {
   return (
     <div className="columns-2 h-screen">
-    <div className="bg-gradient-to-t from-blue-950 to-azulClaro h-screen">
+    <div className="bg-azul h-screen">
       <img className=" pl-80 pt-80 " src={logo}></img>
     </div>
     <div className="h-full place-content-center">

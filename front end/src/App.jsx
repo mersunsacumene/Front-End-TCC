@@ -6,11 +6,15 @@ import Footer from './components/Footer';
 
 function App() {
   return (
+    <div>
       <div className="text-4xl">
         <Navbar />
         <Outlet />
       
       </div>
+      <Footer />
+      </div>
+    
   )
 }
 

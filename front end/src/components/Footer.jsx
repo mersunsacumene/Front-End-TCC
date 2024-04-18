@@ -3,7 +3,7 @@ import {FaInstagram, FaLinkedin} from 'react-icons/fa6'
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
-  return (<footer class="absolute bottom-0 w-full">
+  return (<footer class="fixed bottom-0 w-full">
     <ul className='bg-azul flex flex-row justify-center space-x-48 mb-0'>
       <li class="text-white">
       <Link to="/"></Link><FaInstagram></FaInstagram>
