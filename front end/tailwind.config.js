@@ -8,6 +8,9 @@ export default {
         branco: "#ffffff",
       }
     },
+    fontFamily: {
+      ubuntu: ["Ubuntu"],
+    }
   },
   plugins: [
     require ('@tailwindcss/forms'),

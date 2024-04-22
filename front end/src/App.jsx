@@ -7,12 +7,12 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div>
-      <div className="text-4xl">
+      <div className="text-4xl font-ubuntu">
         <Navbar />
         <Outlet />
       
       </div>
-      <Footer />
+      
       </div>
     
   )

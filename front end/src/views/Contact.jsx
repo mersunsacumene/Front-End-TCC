@@ -1,67 +1,44 @@
 import React from 'react'
 import Footer from '../components/Footer'
-import logo from "../assets/logoBranca.png";
-import logo2 from "../assets/logoAzul.png";
+import { EnvelopeIcon } from '@heroicons/react/24/outline'
+import FormContact from '../components/Forms/FormContact'
+
 const Contact = () => {
     return (
-       
-        <div class="flex flex-row ">
-       <div className="bg-white w-1/3 h-lvh">
-      <img className=" pl-48 pt-96" src={logo2}></img>
-    </div>
-        <div class="bg-white w-1/3 max-w-4xl p-16">
-          <p className='text-azul text-center'><h1>Contato</h1></p>
-          <form class="bg-azul mt-40 rounded-xl w-full max-w-4xl p-8 shadow-lg space-y-6" action="#" method="POST">
-          <div>
-              <label for="name" class="block text-sm font-medium leading-6 text-white">Nome completo </label>
-              <div class="mt-2">
-                <input id="name" name="name"  type='text' placeholder="Nome completo" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-azul sm:text-sm sm:leading-6" />
-              </div>
-            </div>
-            <div>
-              <label for="date" class="block text-sm font-medium leading-6 text-white">Data de nascimento </label>
-              <div class="mt-2">
-                <input id="name" name="date" type='date' required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-azul sm:text-sm sm:leading-6" />
-              </div>
-            </div>
-            <div>
-              <label for="telefone" class="block text-sm font-medium leading-6 text-white">Telefone</label>
-              <div class="mt-2">
-                <input id="telefone" name="telefone" type="tel" pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-azul sm:text-sm sm:leading-6"  placeholder="xx xxxxx-xxxx" />
-              </div>
-            </div>
-            <div>
-              <label for="email" class="block text-sm font-medium leading-6 text-white">Email </label>
-              <div class="mt-2">
-                <input id="email" name="email" type="email" placeholder="Email" autocomplete="email" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-azul sm:text-sm sm:leading-6" />
-              </div>
-            </div>
-            <div>
-            </div>
-            <div>
-              <label for="name" class="block text-sm font-medium leading-6 text-white">Assunto</label>
-              <div class="mt-2">
-                <input id="text" type='text' placeholder="Nome completo" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-azul sm:text-sm sm:leading-6" />
-              </div>
-            </div>
-            <div>
-              <label for="name" class="block text-sm font-medium leading-6 text-white">Mensagem </label>
-              <div class="mt-2">
-                <input id="text" type='text' placeholder="Nome completo" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-azul sm:text-sm sm:leading-6" />
-              </div>
-            </div>
-            <div>
-             <button type="submit" class="flex w-full justify-center rounded-md bg-white px-3 py-1.5 text-sm font-semibold leading-6 text-azul shadow-sm hover:bg-red-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Enviar Mensagem</button>
-            </div>
-          </form>
-        </div>
-        <div className="bg-white w-1/3 h-lvh">
-      <img className=" pl-48 pt-96 " src={logo2}></img>
-    </div>
+       <div className=''> 
    
-        <Footer />
-        </div>
-        
+          <div className='flex h-screen '>
+            <div className=' w-1/2 flex justify-center bg-gradient-to-bl from-white to-blue-200'>
+              <div className='mt-60 '><h1 className='text-azul text-center text-5xl font-medium '> Converse conosco</h1>
+
+              <br />
+
+                <p className='px-40 text-lg text-justify'>Queremos ouvir você! Entre em contato conosco para dúvidas, comentários ou apenas para dizer olá. Nossa equipe está pronta para ajudar com tudo relacionado ao projeto For M.E.I e muito mais. Preencha o formulário ao lado ou envie um e-mail para atendimento@dazzle.com.br</p>
+
+                <br />
+
+                <div className='flex gap-4 px-40 items-center '>
+                    < EnvelopeIcon className='ml-40 h-12 w-12 '/>
+                       <a href="mailto:guilhermequiulo@gmail.com"><h1 className='text-base underline hover:text-blue-800'>atendimento@dazzle.com.br</h1>
+                       </a>
+                </div>
+              </div>
+            </div>
+
+
+            
+            <div className=' w-1/2 flex items-center justify-center bg-gradient-to-br from-white to-blue-200'>
+
+              <FormContact/>
+
+            </div>
+
+
+          </div>
+
+
+
+       </div>
     )
     
 }

@@ -1,18 +1,22 @@
 import React from 'react'
-import logo from "../assets/logoBranca.png";
-import FormSignUp from '../components/FormSignUp'
+import logoBranca from "../assets/logoBranca.png";
+import FormSignUp from '../components/Forms/FormSignUp'
 
 const SignUp = () => {
   return (
-    <div className="columns-2 h-screen">
-    <div className="bg-azul h-screen">
-      <img className=" pl-80 pt-80 " src={logo}></img>
-    </div>
-    <div className="h-full place-content-center">
-    <FormSignUp />
-    </div>
+    <div>
+    <div className='flex h-screen'>
+      <div className=' bg-azul w-1/2  flex items-center justify-center'>
+          <img className='hover:h-72' src={logoBranca} alt="" srcset="" />
+      </div>
+      <div className='w-1/2 flex items-center justify-center'>
+           <FormSignUp />
+      </div>
+      </div>
+
+
   </div>
- )
+)
 }
 
 export default SignUp

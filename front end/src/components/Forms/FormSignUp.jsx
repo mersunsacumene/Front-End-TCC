@@ -8,7 +8,7 @@ const FormSignUp = () => {
           <h2 class="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-azul">Cadastre-se</h2>
         </div>
       
-        <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+        <div class="mt-10 sm:mx-auto sm:w-96 sm:max-w-sm">
           <form class="space-y-6" action="#" method="POST">
     
     

@@ -12,7 +12,7 @@ const FormLogin = () => {
               <h2 class="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-azul">Faça o login na sua conta</h2>
             </div>
           
-            <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+            <div class="mt-10 sm:mx-auto sm:w-96 sm:max-w-sm">
             
               <form class="space-y-6" action="#" method="POST">
                 <div>
@@ -27,7 +27,7 @@ const FormLogin = () => {
                     <label for="password" class="block text-sm font-medium leading-6 text-gray-900">Senha</label>
                     <div class="text-sm">
                       <Link to="/esqueceusenha">
-                      <a href="#" class="font-semibold text-azul underline hover:text-indigo-500">Esqueceu a senha?</a>
+                      <a href="#" class="font-semibold text-azul underline hover:text-blue-800">Esqueceu a senha?</a>
                       </Link>
                     </div>
                   </div>
@@ -38,7 +38,7 @@ const FormLogin = () => {
           
                 <div>
                 
-                 <button type="submit" class="flex w-full justify-center rounded-md bg-azul px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-azul">Login<Link to="/" /></button>
+                 <button type="submit" class="flex w-full justify-center rounded-md bg-azul px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-blue-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-azul">Login<Link to="/" /></button>
 
                 </div>
               </form>
@@ -46,7 +46,7 @@ const FormLogin = () => {
               <p class="mt-10 text-center text-sm text-gray-500">
                 Não é cadastrado?
                 <Link to="/SignUp">
-                <a href="#" class="font-semibold leading-6 text-azul underline hover:text-indigo-500"> Cadastre-se aqui</a>
+                <a href="#" class="font-semibold leading-6 text-azul underline hover:text-blue-800"> Cadastre-se aqui</a>
                 </Link>
               </p>
             </div>
