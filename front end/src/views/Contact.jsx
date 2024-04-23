@@ -28,9 +28,9 @@ const Contact = () => {
 
             
             <div className=' w-1/2 flex items-center justify-center bg-gradient-to-br from-white to-blue-200'>
-
-              <FormContact/>
-
+              <div className='rounded-xl border-2 shadow-2xl border-azul p-8 bg-branco'>
+                <FormContact/>
+              </div>
             </div>
 
 

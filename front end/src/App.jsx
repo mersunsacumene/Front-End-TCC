@@ -10,7 +10,7 @@ function App() {
       <div className="text-4xl font-ubuntu">
         <Navbar />
         <Outlet />
-      
+        <Footer />
       </div>
       
       </div>
