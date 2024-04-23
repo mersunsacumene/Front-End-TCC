@@ -8,7 +8,7 @@ const Contact = () => {
        <div className=''> 
    
           <div className='flex h-screen '>
-            <div className=' w-1/2 flex justify-center bg-gradient-to-bl from-white to-blue-200'>
+            <div className=' w-1/2 flex      justify-center bg-gradient-to-bl from-white to-blue-200'>
               <div className='mt-60 '><h1 className='text-azul text-center text-5xl font-medium '> Converse conosco</h1>
 
               <br />
