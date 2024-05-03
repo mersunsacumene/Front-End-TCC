@@ -1,6 +1,6 @@
 import React from 'react'
-import logoBranca from "../assets/logoBranca.png";
-import FormLogin from '../components/Forms/FormLogin';
+import logoBranca from "../../assets/logoBranca.png";
+import FormLogin from '../../components/Forms/FormLogin';
 
 const Login = () => {
  return (

@@ -6,13 +6,13 @@ import './index.css'
 
 import { createBrowserRouter, RouterProvider } from"react-router-dom";      
 
-import Home from './views/Home.jsx';
+import Home from './views/Home/HomeFeed.jsx';
 import About from './views/About.jsx';
 import Contact from './views/Contact.jsx';
 import ErrorPage from './views/ErrorPage.jsx';
-import Login from './views/Login.jsx';
-import SignUp from './views/SignUp.jsx';
-import EsqueceuSenha from './views/EsqueceuSenha.jsx';
+import Login from './views/Login/Login.jsx';
+import SignUp from './views/Login/SignUp.jsx';
+import EsqueceuSenha from './views/Login/EsqueceuSenha.jsx';
 
 const router = createBrowserRouter([
   {

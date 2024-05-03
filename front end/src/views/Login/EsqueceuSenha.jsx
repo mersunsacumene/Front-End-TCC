@@ -1,6 +1,6 @@
 import React from 'react'
-import logoBranca from "../assets/logoBranca.png";
-import RecuperacaoSenha from '../components/Forms/RecuperacaoSenha';
+import logoBranca from "../../assets/logoBranca.png";
+import RecuperacaoSenha from '../../components/Forms/RecuperacaoSenha';
 
 const EsqueceuSenha = () => {
   return (
